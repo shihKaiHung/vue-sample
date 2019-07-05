@@ -12,6 +12,6 @@ declare module "vue/types/vue" {
     $refs: {
       [key: string]: HTMLInputElement;
     };
-    $emit: (event: string, ...args) => void;
+    $emit: (event: string, ...args: any) => void;
   }
 }
