@@ -1,0 +1,33 @@
+{
+  "name": "vue-example",
+  "version": "1.0.0",
+  "description": "My extraordinary Nuxt.js project",
+  "author": "awesome",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "dev": "cross-env NODE_ENV=development ts-node server/index.ts --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production ts-node  server/index.ts",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.0.0",
+    "ts-node": "^8.3.0",
+    "vue-loader": "^15.7.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "ts-loader": "^6.0.4",
+    "vue-jest": "^3.0.3"
+  }
+}

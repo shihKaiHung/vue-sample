@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+//     "lib": [
+//       "es6",
+//       "webworker",
+//       "dom"
+//     ],
+    "baseUrl": ".",
+    "plugins": [{ "name": "ts-vue-plugin" }],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
