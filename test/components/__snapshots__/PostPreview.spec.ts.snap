@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostPreview is a Vue instance 1`] = `
+<div>
+  <h2>hello</h2>
+  <p>test</p>
+</div>
+`;

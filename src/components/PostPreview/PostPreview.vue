@@ -6,11 +6,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop } from "vue-property-decorator";
-import Post from "~/type/Post";
+    import { Component, Vue, Prop } from "vue-property-decorator";
+    import Post from "~/type/Post";
 
-@Component
-export default class PostPreview extends Vue {
-  @Prop({ type: Object, required: true }) post!: Post;
-}
+    @Component
+    export default class PostPreview extends Vue {
+      @Prop({ type: Object, required: true }) post!: Post;
+    }
 </script>

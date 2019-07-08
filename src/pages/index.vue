@@ -7,10 +7,11 @@
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator'
   import Post from '~/type/Post'
+  import PostPreview from "~/components/PostPreview/PostPreview.vue";
 
   @Component({
     components: {
-      "PostPreview": () => import('~/components/PostPreview/PostPreview.vue')
+      PostPreview
     },
   })
   export default class FeedPage extends Vue {
