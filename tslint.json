@@ -1,0 +1,34 @@
+{
+  "extends": ["tslint:recommended"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "modules/**",
+      "*.js"
+    ]
+  },
+  "rules": {
+    "cyclomatic-complexity": [true, 5],
+    "max-line-length": [true, 150],
+    "no-submodule-imports": false,
+    "no-empty-interface": false,
+    "no-console": false,
+    "no-var-requires": false,
+    "no-unused-expression": false,
+    "no-bitwise": false,
+    "no-implicit-dependencies": false,
+    "no-conditional-assignment": false,
+    "jsx-wrap-multiline": false,
+    "triple-equals": false,
+    "interface-name": false,
+    "ordered-imports": true,
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [true, "consistent-as-needed"],
+    "indent": [true, "spaces", 2],
+    "variable-name": [true, "check-format", "allow-leading-underscore", "allow-pascal-case"],
+    "prefer-object-spread": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "no-angle-bracket-type-assertion": false
+  }
+}

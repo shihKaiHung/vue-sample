@@ -21,7 +21,7 @@
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"]
+      "~/*": ["src/*"],
     },
     "plugins": [{ "name": "ts-vue-plugin" }]
   },
